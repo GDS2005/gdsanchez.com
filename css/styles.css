@@ -110,6 +110,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  color: #9C55F0;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -207,6 +208,7 @@ blockquote {
 b,
 strong {
   font-weight: bolder;
+  color: #9C55F0;
 }
 
 small, .small {
@@ -235,11 +237,11 @@ sup {
 }
 
 a {
-  color: #0d6efd;
+  color: #9C55F0;
   text-decoration: underline;
 }
 a:hover {
-  color: #0a58ca;
+  color: #9C55F0;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3030,13 +3032,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #9C55F0;
+  border-color: #9C55F0;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background-color:#8631ec;
+  border-color: #8631ec;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -7807,7 +7809,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #9C55F0 !important;
 }
 
 .bg-secondary {
@@ -7842,7 +7844,7 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #000 !important;
 }
 
 .bg-black {
